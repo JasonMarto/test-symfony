@@ -1,3 +1,4 @@
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/37e9bcc9-b384-486d-9a7a-e6cfb5be756d/big.png)](https://insight.sensiolabs.com/projects/37e9bcc9-b384-486d-9a7a-e6cfb5be756d)
 # Test Symfony
 
 ## Introduction
