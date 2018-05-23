@@ -2,6 +2,7 @@
     "name": "btor/test-symfony",
     "license": "proprietary",
     "type": "project",
+    "description": "Test symfony apicéa",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"

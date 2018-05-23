@@ -8,7 +8,6 @@
 
 namespace AppBundle\Reader;
 
-
 use Symfony\Component\Finder\Finder;
 
 class FileReader
@@ -25,7 +24,7 @@ class FileReader
 
         /** @var \Symfony\Component\Finder\SplFileInfo $file */
         foreach ($finder->files()->in($dirPath) as $file) {
-            $content = $file->openFile() or die("Unable to open file!");
+            $content = $file->openFile();
             while(!$content->eof()) {
                 $line = explode('|', $content->fgets());
                 if(!empty($line[0])) {
