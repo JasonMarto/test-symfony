@@ -70,3 +70,17 @@ Parser les données HL7 et les insérer en base:
 * Modifier ce readme dans votre repo pour expliquer votre projet.
 * Envoyer le lien github/gitlab de votre projet afin que l'on puisse regarder votre code.
 
+# Solution
+
+* MAJ du projet en php7 
+* Ajout dockerization du projet, voir le dossier `docker` merci à Maxence POUTORD.
+* Creation des entités `Patient` et `Doctor` qui hériteraient d'une interface user avec des champs en commun (`Nom`, `Prénom`).
+* Nouvelle entiité `Address`.
+* En essayant de respecter les principes SOLID.
+* Ajout d'un `Reader` permettant de parser et d'alimenter un tableau de toutes les données contenues dans les fichiers d'un répertoir donné.
+* Ajout un `Mapper` permettant de récupérer tous les attributs nécéssaires à la création d'un patient.
+
+## Coming Soon
+
+* Une commande permettant de rentrer une source de fichiers à parser et de données à insérer en base
+* Un repo par model afin de pouvoir inserer en base les models.
